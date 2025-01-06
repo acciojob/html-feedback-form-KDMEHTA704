@@ -8,6 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+    <form action="#" method="post">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+        
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" placeholder="Write your feedback here..." required></textarea><br><br>
+
+        
+        <label for="rating">How satisfied are you (1-5):</label><br>
+        <select id="rating" name="rating" required>
+            <option value="">Select</option>
+            <option value="1">1 - Very Dissatisfied</option>
+            <option value="2">2 - Dissatisfied</option>
+            <option value="3">3 - Neutral</option>
+            <option value="4">4 - Satisfied</option>
+            <option value="5">5 - Very Satisfied</option>
+        </select><br><br>
+		
+        <button type="submit">Submit Feedback</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
